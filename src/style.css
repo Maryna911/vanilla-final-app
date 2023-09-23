@@ -1,0 +1,77 @@
+body {
+  font-family: arial, sans-serif;
+  color: #424752;
+}
+ul {
+  list-style: none;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+p {
+  margin-bottom: 0;
+  color: rgb(90, 98, 117);
+}
+.container {
+  padding: 30px 20px;
+  margin: 30px auto;
+  margin-bottom: 5px;
+  border: 3px solid rgba(85, 89, 97, 0.8);
+  border-radius: 10px;
+  max-width: 600px;
+}
+.temperature {
+  color: rgb(33, 33, 33);
+  font-size: 40px;
+  font-weight: 350;
+  line-height: 1;
+}
+.temperature small {
+  color: #202124;
+  display: inline-block;
+  font-size: 16px;
+  line-height: 15px;
+  margin-top: 6px;
+  padding-left: 6px;
+  vertical-align: top;
+}
+.image {
+  margin-top: 20px;
+}
+
+.wearher-icons {
+  border-radius: 20px;
+  line-height: 35;
+}
+.card {
+  margin-top: 35px;
+  margin-bottom: 10px;
+  text-align: center;
+  border: none;
+}
+.block_center {
+  margin: 0 auto;
+}
+.border_card {
+  border: 4px solid rgb(128, 189, 255, 0.7);
+  border-radius: 30px;
+  width: 60px;
+  min-height: 120px;
+  margin: 0 auto;
+}
+#line {
+  border-left: 3px solid rgb(90, 98, 117);
+}
+
+.coder {
+  text-align: center;
+}
+.temperature .active {
+  color: #424752;
+  cursor: default;
+}
+.temperature .active:hover {
+  text-decoration: none;
+}
+.week-temp {
+  font-size: 16px;
+}
