@@ -65,13 +65,7 @@ p {
 .coder {
   text-align: center;
 }
-.temperature .active {
-  color: #424752;
-  cursor: default;
-}
-.temperature .active:hover {
-  text-decoration: none;
-}
+
 .week-temp {
   font-size: 16px;
 }
