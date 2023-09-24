@@ -22,7 +22,6 @@
     <div class="container">
       <div class="weather-app">
         <div class="row">
-          <!--search field-->
           <div class="col-6">
             <form class="search-form" id="search-form">
               <div class="row">
@@ -33,6 +32,7 @@
                     placeholder="Enter a city"
                     aria-label="Recipient's username"
                     aria-describedby="button-addon2"
+                    autocomplete="off"
                     id="city-input"
                   />
                   <button
@@ -45,7 +45,6 @@
                 </div>
               </div>
             </form>
-            <!--Sunrise / Sunset fields-->
             <div class="row">
               <div class="col-12">
                 <ul>
@@ -53,22 +52,9 @@
                   <li>Humidity: <span id="humidity"></span>%</li>
                   <li>Wind: <span id="wind"></span> km/h</li>
                 </ul>
-                <!--Sunrise
-                <div class="w-100"></div>
-                4:30
-                <div class="w-100"></div>
-                🌅-->
               </div>
-              <!--<div class="col-0">
-                Sunset
-                <div class="w-100"></div>
-                10:22
-                <div class="w-100"></div>
-                🌇
-              </div>-->
             </div>
           </div>
-          <!--curent location fields-->
           <div class="col-6" id="line">
             <div class="row">
               <div class="col-6">
@@ -94,7 +80,6 @@
             </div>
           </div>
         </div>
-        <!--days card-->
         <div class="weather-forecast" id="forecast"></div>
       </div>
     </div>
